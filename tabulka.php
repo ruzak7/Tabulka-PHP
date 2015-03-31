@@ -29,11 +29,6 @@ class tabulka {
      * @var array Tady se ukládají čísla řádků z tabulek a potom se z nich vybírá největší.
      */
     private $cisla = array();
-    /**
-     *
-     * @var string Zde se typ tabulky ( s ráměčkem.... atd.).
-     */
-    private $typ;
     
     /**
      * 
@@ -64,15 +59,6 @@ class tabulka {
     function vloz_data($data, $cislo) {
         $this->data[$cislo][] = $data;
         $this->cisla[] = $cislo;
-    }
-
-    /**
-     * 
-     * @param string $typ Zadejte typ tabulky. 
-     * @todo Nastaví vzhled tabulky.
-     */
-    function typ_ohraniceni($typ) {
-        $this->typ = $nazev;
     }
 
     /**
