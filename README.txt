@@ -1,1 +1,0 @@
-Školní práce na SI. Jednoduchá PHP tøída která dokáže vygenerovat tabulku bez psaní HTML tagù. Názorné použití je zobrazeno zde: https://github.com/ruzak7/Tabulka-PHP/blob/master/example.php.
